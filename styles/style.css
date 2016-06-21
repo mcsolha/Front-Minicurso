@@ -5,3 +5,43 @@
   padding: 0;
   text-decoration: none;
 }
+
+.navbar-breadcrumb{
+  padding: 0 25px;
+}
+
+.category-products, .list-products{
+  display: inline-block;
+}
+
+.category-products{
+  min-width: 300px;
+  vertical-align: top;
+}
+
+.list-products{
+  padding: 0 30px;
+  width: calc(100vw - 330px);
+  clear: right;
+}
+
+.list-products .list-products-title{
+  margin-top: -4px;
+}
+
+.card.panel{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.list-products .card.panel, .list-products .card.panel .panel-heading img{
+  width: 300px;
+}
+
+.list-products .card.panel .panel-heading{
+  padding: 0px;
+}
+
+.list-products .card.panel .panel-heading img{
+  height: 150px;
+}
